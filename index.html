@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Ruan Felipe</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
   <!-- Dev Icon Fonts -->
@@ -21,16 +23,75 @@
       <ul id="social-container">
         <li><a href="https://www.linkedin.com/in/ruan-felipe-silva-06b9631a6/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
         <li><a href="https://github.com/RuanSilva6721" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5591983030520&text=Olá,%20gostaria%20de%20fazer%20algumas%20perguntas1" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+        
       </ul>
       <div id="email-container">
-        <ion-icon name="mail-outline"></ion-icon><a href="mailto:matheus@horadecodar.com.br">ruansilva6721@gmail.com</a>
+        <ion-icon name="mail-outline"></ion-icon><a href="mailto:ruansilva6721@gmail.com">ruansilva6721@gmail.com</a>
       </div>
     </aside>
     <section id="about-container">
       <h1 id="name">Ruan Felipe </h1>
-      <p id="title"><span class="highlight">software engineer</span></p>
-      <p class="description">Sou um desenvolvedor em construção.
+      <p id="title"><span class="highlight">Software Engineer</span></p>
+      <p class="description">Sou um desenvolvedor em construção.</p>
       <p class="description">Atuo tanto no <span class="highlight">front</span> como no <span class="highlight">back-end</span>, e amo tecnologia, estudo todos os dias para me tornar cada vez melhor e escrever código de qualidade.</p>
+      <p class="description">Experiências:</p>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="card-body highlight">
+                <h5 class="card-title">Software Engineer PHP e VUE JS</h5>
+                <p class="card-text">Freelance</p>
+                <p class="card-text">jul de 2023 - o momento · 8 meses</p>
+                <p class="card-text">Brasil · Remota</p>
+                <p class="card-text">PHP · Laravel · CakePhp · Vue Js · Docker · Kanban · API REST · Git · PostgreSQL</p>
+                <p class="card-text">JavaScript · Linux · Clean Code · SOLID · Agile · Integração de API’s · MySQL · jQuery · Mongo DB · Linux · Nginx</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body highlight">
+                <h5 class="card-title">Software Developer na Ditech - Software sob Medida</h5>
+                <p class="card-text">fev de 2023 - jul de 2023 · 6 meses</p>
+                <p class="card-text">Porto Alegre, Rio Grande do Sul, Brasil · Remota</p>
+                <p class="card-text">PHP · Laravel · CakePhp · Vue Js · Docker · Kanban · API REST · Git · PostgreSQL</p>
+                <p class="card-text">JavaScript · Linux · Clean Code · SOLID · Agile · Integração de API’s</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card"> 
+              <div class="card-body highlight">
+                <h5 class="card-title">Software Developer no Ministério Público do Pará</h5>
+                <p class="card-text">dez de 2021 - fev de 2023 · 1 ano 3 meses</p>
+                <p class="card-text">Belém, Pará, Brasil</p>
+                <p class="card-text">Kanban · API REST · Git · JQuery · JSON · GitHub · Desenvolvimento de backend · JIRA · Banco de dados · SQL · Desenvolvimento web · Laravel · PHP · JavaScript · AJAX · CSS · Linux · Clean Code · SOLID · Testes Unitários</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body highlight">
+                <h5 class="card-title">Software Engineer PHP e JS</h5>
+                <p class="card-text">Freelance</p>
+                <p class="card-text">jan de 2021 - nov de 2021 · 11 meses</p>
+                <p class="card-text">Remota</p>
+                <p class="card-text">PHP · Javascript · HTML · CSS · Bootstrap · Laravel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
       <a href="https://github.com/RuanSilva6721" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span></a>
       <h2 id="skills-section-title">Minhas Skills</h2>
       <p class="description">Conheça as tecnologias que domino:</p>
@@ -45,28 +106,39 @@
           <p class="skills-title">Back-end</p>
           <i class="devicon-php-plain colored"></i>
           <i class="devicon-python-plain colored"></i>
+          <i class="devicon-java-plain colored"></i>
+          <i class="devicon-pythin-plain colored"></i>
         </div>
         <div class="skills-box">
           <p class="skills-title">Databases</p>
           <i class="devicon-mysql-plain colored"></i>
+          <i class="devicon-postgresql-plain colored"></i>
+          <i class="devicon-redis-plain colored"></i>
         </div>
         <div class="skills-box">
           <p class="skills-title">Front-end Frameworks</p>
           <i class="devicon-bootstrap-plain colored"></i>
+          <i class="devicon-vuejs-plain colored"></i>
+          <i class="devicon-react-plain colored"></i>
+          <i class="devicon-quasar-plain colored"></i>
         </div>
         <div class="skills-box">
           <p class="skills-title">Back-end Frameworks</p>
           <i class="devicon-laravel-plain colored"></i>
           <i class="devicon-django-plain colored"></i>
+          <i class="devicon-spring-plain colored"></i>
+          <i class="devicon-cakephp-plain colored"></i>
         </div>
         <div class="skills-box">
           <p class="skills-title">Tools</p>
           <i class="devicon-linux-plain colored"></i>
-          <!-- <i class="devicon-docker-plain colored"></i> -->
+          <i class="devicon-docker-plain colored"></i>
         </div>
       </div>
     </section>
   </main>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Ion Icons -->
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>

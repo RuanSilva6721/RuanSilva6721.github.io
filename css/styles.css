@@ -184,6 +184,9 @@
   font-size: 45px;
   margin-right: 10px;
 }
+.card-body{
+  background-color: #1E2A3A;
+}
 
 /* Mobile */
 @media(max-width: 450px) {
@@ -231,6 +234,9 @@
 
   .skills-box i {
     font-size: 60px;
+  }
+  .card-body{
+    background-color: #1E2A3A;
   }
 
 }
